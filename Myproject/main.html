@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Online Learning Portal</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+  <header class="navbar">
+    <div class="container">
+      <img class="logo" src="https://img.lovepik.com/free-png/20220125/lovepik-real-estate-building-logo-png-image_401737177_wh1200.png" alt="Logo" />
+      <div class="search-bar">
+        <input type="text" placeholder="What do you want to learn today?" />
+        <button><i class="ri-search-line"></i></button>
+      </div>
+      <nav class="nav-menu">
+        <a href="#">Home</a>
+        <a href="courses.html"> Browse Courses</a>
+        <a href="#">Our Degrees</a>
+        <a href="#">About Us</a>
+        <a href="#">How it works?</a>
+      </nav>
+      <div class="auth-buttons">
+       <a href="login.html"> <button class="login">  Log In</button></a>
+       <a href="login.html">  <button class="signup"> Sign Up</button></a>
+        <i class="ri-global-line language-icon"></i>
+      </div>
+      <div class="mobile-menu">
+        <i class="ri-menu-line" id="hamburger" onclick="hamburger()"></i>
+        <div class="mobilemenu-list">
+          <a href="courses.html">Explore Courses</a>
+          <a href="#">Earn a Certififcate</a>
+          <a href="#">Earn a Diploma</a>
+          <a href="#">Discover Careers</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero-section">
+    <div class="container hero-content">
+      <div class="hero-text">
+        <h1>Unlock Your Potential With <br><span class="highlight">Online Learning.</span></h1>
+        <a href="get-started.html"><button class="cta-button">Get Started</button></a>
+      </div>
+      <div class="hero-image">
+        <img src="demo.jpg" alt="Online Learning"/>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <section class="users-section">
+    <div class="worldwide container">
+    <div class="user"> <a href=""><i class="ri-earth-line"></i></a>
+    <h2>Worldwide Trends</h2>
+  <p>Our services and collections adhere to cutting-edge solutions in the design world.</p> 
+</div>
+    <div class="user"> <a href=""><i class="ri-computer-line"></i></a>
+    <h2>Complex Online Education</h2>
+  <p>We have everything for effective learning and delivery of assignments by students.</p> 
+</div>
+    <div class="user"> <a href=""><i class="ri-calendar-todo-fill"></i></a>
+    <h2>Brand certificate</h2>
+  <p>After completing the course, you will receive a certificate confirming your knowledge.</p> 
+</div>
+   </div>
+  </section>
+
+
+
+
+
+
+  <section class="features-section">
+    <div class="features-head container"><h1>Categories</h1>
+</div>
+    <div class="features-content">
+      <div class="feature-levels">
+        <div class="level1"> <h3>Beginner Courses</h3>
+          <img class="features-image" src="https://png.pngtree.com/png-vector/20190612/ourmid/pngtree-capeducationgraduationaward-blue-icon-on-abstract-cloud-ba-png-image_1348485.jpg" alt="">
+        <h4>Start Your Journey Here!</h4>
+        <p>Our beginner courses are designed for students with little or no prior experience.
+           Learn the basics step by step with easy-to-follow lessons and hands-on practice.</p>
+             <a href="courses.html">View Courses</a>
+
+        </div>
+
+
+        <div class="level2"><h3>Intermediate Courses</h3>
+        <img class="features-image2" src="https://img.freepik.com/premium-photo/graphic-brain-as-computer-chip-artificial-intelligence_1115583-38008.jpg" alt="">
+        <h4>Build on your foundation.</h4>
+        <p>Intermediate courses help you deepen your skills. Perfect if you know the basics 
+          and are ready to work on real-world projects and slightly more advanced topics.</p>
+          <a href="courses.html">View Courses</a>
+        </div>
+
+
+        <div class="level3"> <h3>Advanced Courses</h3>
+       <img class="features-image" src="https://img.freepik.com/free-vector/science-word-illustrated-design_23-2148541081.jpg?semt=ais_hybrid&w=740" alt="">
+          <h4>Master your skills.</h4>
+          <p>Take your knowledge to the next level. These advanced courses cover complex 
+            concepts and industry-level practices to prepare you for professional roles.</p>
+            <a href="courses.html">View Courses</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!--courses section-->
+  <section class="courses-section">
+    <div class="container">
+      <h2>Explore our Courses</h2>
+    </div>
+  </section>
+
+
+  <!--team members section-->
+  <section class="team-section">
+    <h2>Community Experts</h2>
+    <p>Replenish man have thing gathering lights yielding shall you</p>
+
+    <div class="team-members">
+      <div class="member">
+        <img src="https://img.freepik.com/premium-photo/portrait-smiling-young-man_53419-4942.jpg" alt="Ema Irnik">
+        <h4>Ema Irnik</h4>
+        <p>Python & Algorithm Expert</p>
+        <div class="social-icons">
+          <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+
+      <div class="member">
+        <img src="https://cdn6.f-cdn.com/files/download/38546484/28140e.jpg" alt="Jason">
+        <h4>Jason</h4>
+        <p>Data Analysis Expert</p>
+        <div class="social-icons">
+          <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+
+      <div class="member">
+        <img src="https://th.bing.com/th/id/OIP.wdPlsy8TnGyy6ELCyHiurQHaGe?r=0&w=500&h=437&rs=1&pid=ImgDetMain" alt="Maalik">
+        <h4>Maalika</h4>
+        <p>Full Stack Developer</p>
+        <div class="social-icons">
+          <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+
+      <div class="member">
+        <img src="https://th.bing.com/th/id/OIP.c3xZFEubLwRrbMU1w2W1uwHaHa?r=0&rs=1&pid=ImgDetMain" alt="Jenni">
+        <h4>Jenni</h4>
+        <p>Design Expert</p>
+        <div class="social-icons">
+          <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!--footer-->
+    <footer>
+    <div class="footer-container">
+      <div class="footer-column">
+        <h3>About Us</h3>
+        <p>We are a platform dedicated to making quality education accessible to everyone, anywhere in nepal.</p>
+      </div>
+      <div class="footer-column">
+        <h3>Quick Links</h3>
+        <a href="courses.html">All Courses</a><br>
+        <a href="#">Instructor Portal</a><br>
+        <a href="#">Student Dashboard</a><br>
+        <a href="#">Learning Paths</a>
+      
+      </div>
+
+       <div class="footer-column">
+        <h3>Help</h3>
+        <a href="#">FAQs</a><br>
+        <a href="#">Support Center</a><br>
+        <a href="#">Privacy Policy</a><br>
+        <a href="#">Terms of Use</a>
+      </div>
+
+
+      <div class="footer-column">
+        <h3>Contact</h3>
+        <p>Email: support@learnonline.com</p>
+        <p>Phone: +977-123456789</p>
+        <p>Location: Kathmandu, Nepal</p>
+      </div>
+      <div class="footer-column">
+        <h3>Follow Us on</h3>
+        <div class="Social-icons">
+           <a href="#"><i class='bx bxl-facebook'></i></a>
+          <a href="#"><i class='bx bxl-google'></i></a>
+           <a href="#"><i class='bx bxl-instagram'></i></a>
+            <a href="#"><i class='bx bxl-twitter' ></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      © 2025 LearnOnline. All rights reserved.
+    </div>
+  </footer>
+  
+  <script src="footer.js"></script>
+</body>
+</html>
