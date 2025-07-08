@@ -12,3 +12,4 @@ loginBtn.addEventListener('click', () => {
 
 });
 
+// This is a login page
